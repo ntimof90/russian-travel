@@ -1,15 +1,11 @@
 .cover {
-  padding: 92px 0 0;
   max-width: 1184px;
   margin: 0 auto;
+  position: relative;
 }
-@media screen and (max-width: 768px) {
-  .cover {
-    padding: 90px 0 0;
-  }
-}
-@media screen and (max-width: 425px) {
-  .cover {
-    padding: 66px 0 0;
-  }
+.cover::before {
+  content: "";
+  display: block;
+  width: 100%;
+  padding-bottom: 62.5%;
 }
