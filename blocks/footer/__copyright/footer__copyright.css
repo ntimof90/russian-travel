@@ -4,9 +4,15 @@
   margin: 0;
   text-align: right;
 }
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 725px) {
+  .footer__copyright {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 625px) {
   .footer__copyright {
     line-height: 1;
     text-align: left;
+    font-size: 14px;
   }
 }
